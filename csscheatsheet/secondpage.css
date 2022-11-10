@@ -1,0 +1,108 @@
+  
+ 
+*{
+  padding: 0;
+  margin: 0;
+  background: ghostwhite;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+header{
+  background-color: black;
+}
+.logo img{
+  float: left;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+
+.container{
+
+  float: right;
+  padding-top: 50px;
+  padding-right: 50px;
+
+}
+.btn a {
+  text-decoration: none;
+  list-style: none;
+  padding: 14px 16px;
+  background-color: #7F59B0;
+   border-radius: 25px ;
+   transition: 1s;
+   color: whitesmoke;
+   position: relative;
+   
+}
+.btn a:hover{
+  background: black;
+  box-shadow: 5px 10px #7F59B0 ;
+  
+  color: wheat;
+
+
+}
+form{
+  
+  width: 600px;
+  height: 55px;
+
+  
+}
+form input{
+  flex: 1;
+  border: none;
+  outline: none;
+  width: 300px;
+
+
+}
+form button{
+  background: #684C41;
+  padding: 14px 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+form button:hover{
+  background: black;
+  
+  color: wheat;
+}
+
+form .fa-magnifying-glass{
+  align-self: center;
+  padding: 20px 20px;
+  color: #777;
+}
+.sea{
+  float: right;
+  padding-top: 35px;
+  padding-right: 50px;
+}
+
+
+  }
+.row{
+  display: flex;
+  
+  flex-wrap: wrap;
+  }
+ 
+ 
+.container{
+padding-left:200px;
+padding-top:5 px ;
+ 
+}
+    
+ 
+.col-1 img{
+  max-width: 150%;
+  padding: 100px 0;
+}
